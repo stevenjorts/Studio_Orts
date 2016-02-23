@@ -1,0 +1,173 @@
+body {
+	background-color: white;
+	font-family: Helvetica;
+	font-weight: bold;
+	text-align: left;
+	}
+
+.state {
+		font-size: 40px;
+		font-size: 3.1vw;
+	  position: relative;
+     -webkit-transition: all .5s ease-in-out;
+	  -moz-transition: all .5s ease-in-out;
+	  -o-transition: all .5s ease-in-out;
+	  -ms-transition: all .5s ease-in-out;
+	  position:relative;
+
+}
+
+.state:hover{
+	padding: 1%;
+  -webkit-transform: translate(50em,0);
+  -moz-transform: translate(50em,0);
+  -o-transform: translate(50em,0);
+  -ms-transform: translate(50em,0);
+}
+
+
+.top {
+	color: rgb(0,143,219);
+	}
+
+.middle {
+	color: rgb(16,52,130);
+	}
+
+.bottom {
+	color: rgb(200,45,43);
+	}
+
+.start {
+	padding-top: 50px;
+	padding-top: 3.88vw;
+	text-indent: 50px;
+	}
+.contributors{
+	padding-top: 50px;
+	padding-top: 3.88vw;
+}
+
+.one{
+	margin-left: 8%;
+}
+
+.two{
+	margin-left: 9%;
+}
+
+.three{
+	margin-left: 10%;
+}
+
+.four{
+	margin-left: 11%;
+}
+
+.five{
+	margin-left: 12%;
+}
+
+.six{
+	margin-left: 13%;
+}
+
+.seven{
+	margin-left: 14%;
+}
+
+.eight{
+	margin-left: 15%;
+}
+
+.nine{
+	margin-left: 16%;
+}
+
+.ten{
+	margin-left: 17%;
+}
+
+.eleven{
+	margin-left: 18%;
+}
+
+.twelve{
+	margin-left: 19%;
+}
+
+.thirteen{
+	margin-left: 20%;
+}
+
+.fourteen{
+	margin-left: 21%;
+}
+
+.fifteen{
+	margin-left: 22%;
+}
+
+.sixteen{
+	margin-left: 23%;
+}
+
+.seventeen{
+	margin-left: 24%;
+}
+
+.eighteen{
+	margin-left: 25%;
+}
+
+.nineteen{
+	margin-left: 26%;
+}
+
+.twenty{
+	margin-left: 27%;
+}
+
+.twentyone{
+	margin-left: 28%;
+}
+
+.twentytwo{
+	margin-left: 29%;
+}
+
+.twentythree{
+	margin-left: 30%;
+}
+
+.twentyfour{
+	margin-left: 31%;
+}
+
+.twentyfive{
+	margin-left: 32%;
+}
+
+.twentysix{
+	margin-left: 33%;
+}
+
+.twentyseven{
+	margin-left: 34%;
+}
+
+.twentyeight{
+	margin-left: 35%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+

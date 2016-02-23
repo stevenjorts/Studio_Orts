@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<head>
+  <title>BMW Announcement</title>
+  <link rel="stylesheet" href="mainletter.css">
+</head>
+
+<body>
+  
+   <div id="typewriter"></div>
+
+   <a href="http://www.bmw-motorsport.com/en/cars/bmw-m6-gtlm.html">See here.</a>
+
+</body>
+
+<script>
+
+var str = "<p>Jan. 28, 2016. BMW unveiled a special livery for the M6 GTLM that is due to compete in the Rolex 24 at Daytona. The commemorative design celebrates the carmaker's 100th anniversary, while paying tribute to several key moments in its past. The car displays images that highlight BMW's contribution to motorsport over the years. On the doors of the brand new M6 GTLM are a collection of images of the 3.0CSL, M1, V12 LMR, and Koons M3 which are just some of the many spectatular cars which BMW have competed with. </p>",
+    i = 0,
+    isTag,
+    text;
+
+(function type() {
+    text = str.slice(0, ++i);
+    if (text === str) return;
+    
+    document.getElementById('typewriter').innerHTML = text;
+
+    var char = text.slice(-1);
+    if( char === '<' ) isTag = true;
+    if( char === '>' ) isTag = false;
+
+    if (isTag) return type();
+    setTimeout(type, 40);
+}()); 
+
+</script>

@@ -1,0 +1,43 @@
+body {
+	word-spacing: -1px;
+	font-family: Helvetica;
+	font-weight: bold;
+	background-color: rgb(16,52,130);
+	}
+
+.mediumf {
+ 	font-size: 85px;
+ 	color: white;
+ 	margin: 2%;
+	font-size: 5.8vw;
+}
+
+a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 7%;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
