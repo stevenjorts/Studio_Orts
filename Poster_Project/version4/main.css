@@ -1,0 +1,73 @@
+body  { 
+  color: white;
+  background-color: black;
+  background-attachment:fixed;
+  background-size: cover;
+  text-align: center;
+  font-size: 50px;
+  font-family: Product Sans;
+  font-weight: bold;
+  margin: 0px;
+  text-shadow: 3px 3px black;
+}
+
+#divID{
+  background-attachment:fixed;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/productsans/v7/HYvgU2fE2nRJvZ5JFAumwRampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    overflow: scroll; 
+    transform:rotate(180deg);
+-ms-transform:rotate(180deg);
+-webkit-transform:rotate(180deg);
+}
+
+.right {
+    float: right;
+    width: 50%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.title{
+  text-transform: uppercase;
+}
+
+.title, .one, .two, .three, .four, .five, .six, .seven, .eight{
+  padding: 55px;
+}
+
+
+
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+  color: white;
+    text-decoration: none;
+}
+
+a:hover {
+  color: white;
+    text-decoration: underline;
+}
+
+a:active {
+  color: white;
+    text-decoration: underline;
+}

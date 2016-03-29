@@ -1,0 +1,81 @@
+body  { 
+  background-attachment:fixed;
+  color: white;
+  background-size: cover;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/productsans/v7/HYvgU2fE2nRJvZ5JFAumwRdwxCXfZpKo5kWAx_74bHs.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+div:hover {
+  background-color: teal;
+}
+
+.title{
+  letter-spacing: 20px;
+  word-spacing: 20px;
+  font-size: 130px;
+  font-family: Western;
+}
+
+.one{
+  font-size: 75px;
+  font-family: futura;
+  font-weight: bold;
+}
+
+.two{
+  font-size: 65px;
+  font-family: Western;
+  letter-spacing: 8px;
+  word-spacing: 12px;
+}
+
+.three{
+  font-size: 45px;
+  font-family: futura;
+  font-weight: bold;
+}
+
+.four{
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  font-size: 40px;
+  font-family: Western;
+}
+
+.five{
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  font-size: 35px;
+  font-family: futura;
+  font-weight: bold;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+  color: white;
+    text-decoration: none;
+}
+
+a:hover {
+  color: white;
+    text-decoration: underline;
+}
+
+a:active {
+  color: white;
+    text-decoration: underline;
+}
