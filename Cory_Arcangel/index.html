@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+
+<div class="switch">
+	<div class="cory">
+	  Cory Archangel  
+	</div>
+	<div class="fuck">
+	  FUCK NEGATIVITY
+	</div>
+</div>
+<div class="cool"><img src="assets/Cool_Links.gif" style="width:175px;height:50px;"></div>
+<div class="cool">Super Mario Clouds</div>
+<div class="cool">I Shot Andy Warhol</div>
+<div class="cool">Totally Fucked</div>
+<div class="cool">Pizza Party</div>
+<div class="cool">Sans Simon</div>
+<div class="cool">Tetris Screwed</div>
+<div class="cool">Super Mario Movie</div>
+<div class="cool">Punk Rock 101</div>
+<div class="cool">A couple thousand short films about Glenn Gould</div>
+<div class="cool">The Bruce springsteen born to Run Glockenspiel Addendum</div>
+<div class="cool">Photoshop CS series</div>
+<div class="cool">Lake series</div>
+<div class="cool">Photoshop Gradient Demonstartions</div>
+<div class="cool">Various Self Playing Bowling Games (aka Beat the Champ)</div>
+<div class="cool">The AUDMCRS Underground Dance Music Collection of Recorded Sound</div>
+
+<div class=counter align=center><a href='http://www.counter12.com'><img src='http://www.counter12.com/img-1DBwBd5c-93.gif' border='0' alt='free web counter'></a><script type='text/javascript' src='http://www.counter12.com/ad.js?id=1DBwBd5c'></script></div>
+
+
+<audio id="mySoundClip">
+	<source src="assets/smb_jump.wav"></source>
+</audio>
+
+
+<script>
+$('.switch').hover(function() {
+        $(this).find('.cory').hide();
+        $(this).find('.fuck').show();
+    }, function() {
+        $(this).find('.fuck').hide();
+        $(this).find('.cory').show();
+});
+</script>
+
+<script>
+var audio = $("#mySoundClip")[0];
+$(".title, .cool, mario").mouseenter(function() {
+  audio.play();
+});
+</script>
+
+</body>
+</html>

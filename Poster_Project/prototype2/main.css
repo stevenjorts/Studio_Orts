@@ -1,0 +1,73 @@
+
+@font-face {
+  font-family: 'Railway';
+  font-style: normal;
+  src: url(Railway.otf) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body{
+	width: 99%;
+	height: 99%;
+  letter-spacing: 1.1;
+  line-height: 1.3;
+}
+
+.growing {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2%;
+  color: black;
+  background-size: cover;
+  font-family: Railway;
+  font-weight: bold;
+  transition: all 2500000s linear;
+  
+}
+
+.is-growing {
+  transform: scale(10000);
+}
+
+
+.title, .one, .two, .three, .four, .five, .six, .seven, .eight{
+  position: fixed;
+}
+
+.title{
+  font-size: 8.9vw;
+  color: green;
+  opacity: .3;
+  }
+
+.one{
+  margin-top: 3%;
+}
+
+.two{
+  margin-top: 6%;
+}
+
+.three{
+  margin-top: 11%;
+}
+
+.four{
+  margin-top: 16%;
+}
+
+.five{
+  margin-top: 26%;
+}
+
+.six{
+  margin-top: 31%;
+}
+
+.seven{
+  margin-top: 34%;
+}
+
+.eight{
+  margin-top: 50%;
+}

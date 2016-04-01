@@ -1,0 +1,23 @@
+body{
+	text-align: center;
+	background-image: url("assets/blue-bricks.jpg");
+	color: yellow;	
+}
+
+.cory, .fuck{
+	font-size: 5.5vw;
+	text-decoration: underline;
+}
+
+.cool{
+	padding: 15px;	
+}
+
+.counter{
+	padding: 20px;
+}
+
+.fuck {
+	display: none;
+	font-size: 10vw;
+}
