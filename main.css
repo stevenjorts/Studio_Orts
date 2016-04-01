@@ -1,0 +1,19 @@
+body{
+	font-family: times;
+	margin-left: 2%
+}
+
+.game{
+	font-size: 50px;
+	padding-bottom: 30px;
+}
+
+.sub{
+	font-size: 35px;
+	padding: 5px;
+}
+
+.sub2{
+	margin-left: 20px;
+	font-size: 25px;
+}
