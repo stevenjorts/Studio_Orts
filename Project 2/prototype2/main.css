@@ -7,67 +7,42 @@
 }
 
 body{
-	width: 99%;
-	height: 99%;
-  letter-spacing: 1.1;
+  margin: 0px;
+  color: #404040;
+  letter-spacing: 1;
   line-height: 1.3;
-}
-
-.growing {
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-top: 2%;
-  color: black;
-  background-size: cover;
   font-family: Railway;
   font-weight: bold;
-  transition: all 2500000s linear;
-  
+
 }
 
 .is-growing {
   transform: scale(10000);
 }
 
-
-.title, .one, .two, .three, .four, .five, .six, .seven, .eight{
+.wrap{
+  width: 35vw;
+  height: 45vh;
+  z-index: 5;
+  overflow: scroll;
   position: fixed;
+  margin-left: 30%;
+  margin-top: 15%;
+}
+
+.one{
+  font-size: 1.3vw;
+  margin: 0px;
+  z-index: 5;
+  overflow: scroll;
 }
 
 .title{
-  font-size: 8.9vw;
-  color: green;
+  z-index: 2;
+  font-size: 12vw;
   opacity: .3;
-  }
-
-.one{
-  margin-top: 3%;
+  line-height: .8;
+  transition: all 2500000s linear;
+  position: fixed;
 }
 
-.two{
-  margin-top: 6%;
-}
-
-.three{
-  margin-top: 11%;
-}
-
-.four{
-  margin-top: 16%;
-}
-
-.five{
-  margin-top: 26%;
-}
-
-.six{
-  margin-top: 31%;
-}
-
-.seven{
-  margin-top: 34%;
-}
-
-.eight{
-  margin-top: 50%;
-}
