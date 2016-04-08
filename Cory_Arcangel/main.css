@@ -1,7 +1,8 @@
 body{
-	text-align: center;
+	text-align: left;
 	background-image: url("assets/blue-bricks.jpg");
-	color: yellow;	
+	color: yellow;
+	margin-left: 5%;	
 }
 
 .cory, .fuck{
@@ -10,7 +11,7 @@ body{
 }
 
 .cool{
-	padding: 15px;	
+	padding: 5px;	
 }
 
 .counter{
@@ -20,4 +21,21 @@ body{
 .fuck {
 	display: none;
 	font-size: 10vw;
+}
+
+a:link {
+	color: yellow;
+	text-decoration: none;
+}
+
+a:visited {
+	color: yellow;
+ }
+
+a:hover {
+   color: yellow;
+}
+
+a:active {
+	color: yellow;
 }
