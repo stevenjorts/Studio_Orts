@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: arial;
+  font-weight: bold;
+  min-height: 100%;
+}
+
+html {
+  height: 100%;
+  position: relative;
+}
+
+
+.start{
+  position: fixed;
+  margin-left: 42%;
+  margin-top: 25%;
+}
+/* 
+  Utility classes for showing and hiding
+  elements and setting color backgrounds
+*/
+.is-hidden { opacity: 0 !important; }
+
+.blue { background: blue; }
+.red { background-color: red; }
+.purple { background-color: purple; }
+.yellow { background-color: yellow; }
+.cyan { background-color: cyan; }
+.turquoise { background-color: turquoise; }
+.green { background-color: green; }
+.navy { background-color: navy; }
+.fuchsia { background-color: fuchsia; }
+.pink { background-color: pink; }
+.orange { background-color: orange; }
+.gold { background-color: gold; }
+.green { background-color: green; }
+
+/* Username form styles */
+
+
+
+.gradient {
+  background: linear-gradient(0deg, white, green, orange);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+
+.username-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -160px;
+  margin-top: -60px;
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 20px rgba(0,0,0,.125);
+  opacity: 1;
+  transition: opacity .2s;
+}
+
+.username-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+
+.message{
+  height: 45px;
+
+}

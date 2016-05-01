@@ -1,0 +1,41 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+<body onload="randomString()">
+
+<div id="hio">
+<div>Howdy</div>
+</div>
+
+<script>
+var username = '';
+
+function randomString(length, chars) {
+    
+    for (var i = length; i > 0; --i) username += chars[Math.round(Math.random() * (chars.length - 1))];
+    return username;
+
+}
+document.write(randomString(5, '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'))
+;
+
+console.log(username);
+
+
+
+</script>
+
+<script>
+
+var rgb = [];
+
+for(var i = 0; i < 3; i++)
+    rgb.push(Math.floor(Math.random() * 255));
+
+document.getElementById('hio').style.backgroundcolor = 'rgb('+ rgb.join(',') + ')';
+</script>
+
+</body>
+</html>
