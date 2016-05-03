@@ -41,8 +41,8 @@ html {
 
 
 .gradient {
-  background: linear-gradient(0deg, white, green, orange);
-  position: fixed;
+/*  background: linear-gradient(0deg, white, green, orange);
+*/  position: fixed;
   left: 0;
   right: 0;
   top: 0;

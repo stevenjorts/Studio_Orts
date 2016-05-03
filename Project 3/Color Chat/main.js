@@ -138,10 +138,48 @@ Chat.onUserCountChange(function (currentCount) {
 });
 
 
-//gradient work
-function createGradient(){
-  
-}
+// var possibleColors = [ 
+//  'blue',
+//    'red',
+//   'purple',
+//   'yellow',
+//  'cyan',
+//   'turquoise',
+//  'green',
+//  'navy',
+//   'fuchsia',
+//  'pink',
+//  'orange',
+//  'gold',
+//  'green'];
 
+var userColors = {};
+
+Chat.onMessage(function (data) {
+  // Try to get a color that corresponds to the message's sender
+  var color = userColors[data.sender];
+   
+  // If we failed to get a color, generate a random color
+  // and associate it with the user
+  if (!color) {
+    color = colorValues[Math.floor(Math.random() * colorValues.length)];
+    userColors[data.sender] = color;
+  }
+  
+  // Get a list of all of our current user colors
+  var workingColors = [];
+  for (var key in userColors) {
+    workingColors.push(userColors[key]);
+  }
+  
+  // Generate gradient css
+  var gradientStyle = 'linear-gradient(0deg,' + userColors.join(',') + ')';
+
+
+  // Actually apply gradient CSS to div
+  $('gradient').css({
+    background: gradientStyle
+  });
+});
 
 
