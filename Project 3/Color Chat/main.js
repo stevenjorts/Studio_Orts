@@ -161,13 +161,9 @@ Chat.onMessage(function (data) {
    
   // If we failed to get a color, generate a random color
   // and associate it with the user
-  if (!color) {
+
     var newColor = possibleColors[Math.floor(Math.random() * possibleColors.length)];
     userColors[data.sender] = newColor;
-  } else {
-    var newColor = colorValues[data.message];
-    userColors[data.sender] = newColor;
-  }
   
   // Get a list of all of our current user colors
   var workingColors = [];
